@@ -6,7 +6,8 @@ Summary(pl):	Modu³ Perla GD::Graph::Map - generowanie mapy HTML dla diagramów GD
 Name:		perl-GD-Graph-Map
 Version:	1.05
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tgz
 # Source0-md5:	cd9019ac7ed29e37fab6707ce0c10aef
