@@ -9,6 +9,7 @@ Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tgz
+# Source0-md5:	cd9019ac7ed29e37fab6707ce0c10aef
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-GD-Graph
 BuildRequires:	rpm-perlprov >= 4.1-13
