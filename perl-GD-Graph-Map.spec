@@ -31,7 +31,7 @@ kod HTML zawieraj±cy znaczniki IMG i MAP.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
