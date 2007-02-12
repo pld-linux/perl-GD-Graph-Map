@@ -2,7 +2,7 @@
 %define		pdir	GD
 %define		pnam	Graph-Map
 Summary:	GD::Graph::Map Perl module - generate HTML map text for GD::Graph diagrams
-Summary(pl):	Modu³ Perla GD::Graph::Map - generowanie mapy HTML dla diagramów GD::Graph
+Summary(pl.UTF-8):   ModuÅ‚ Perla GD::Graph::Map - generowanie mapy HTML dla diagramÃ³w GD::Graph
 Name:		perl-GD-Graph-Map
 Version:	1.05
 Release:	3
@@ -22,10 +22,10 @@ GD::Graph::Map module generates HTML map text for following GD::Graph
 objects: pie, bars, lines, area, point and linespoints. As a result of
 its work is created HTML code containing IMG and MAP tags.
 
-%description -l pl
-Modu³ GD::Graph::Map generuje mapy HTML dla nastêpuj±cych obiektów
+%description -l pl.UTF-8
+ModuÅ‚ GD::Graph::Map generuje mapy HTML dla nastÄ™pujÄ…cych obiektÃ³w
 GD::Graph: pie, bars, lines, area, point, linespoints. W wyniku tworzy
-kod HTML zawieraj±cy znaczniki IMG i MAP.
+kod HTML zawierajÄ…cy znaczniki IMG i MAP.
 
 %prep
 %setup -q -n %{pdir}%{pnam}-%{version}
