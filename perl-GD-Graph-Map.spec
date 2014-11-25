@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	GD
 %define		pnam	Graph-Map
+%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Graph::Map Perl module - generate HTML map text for GD::Graph diagrams
 Summary(pl.UTF-8):	Moduł Perla GD::Graph::Map - generowanie mapy HTML dla diagramów GD::Graph
 Name:		perl-GD-Graph-Map
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tgz
 # Source0-md5:	cd9019ac7ed29e37fab6707ce0c10aef
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/GD-Graph-Map/
 BuildRequires:	perl-GD-Graph
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -42,7 +43,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install samples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p samples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
