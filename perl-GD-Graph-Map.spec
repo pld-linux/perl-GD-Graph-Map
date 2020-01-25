@@ -1,6 +1,5 @@
 %define		pdir	GD
 %define		pnam	Graph-Map
-%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Graph::Map Perl module - generate HTML map text for GD::Graph diagrams
 Summary(pl.UTF-8):	Moduł Perla GD::Graph::Map - generowanie mapy HTML dla diagramów GD::Graph
 Name:		perl-GD-Graph-Map
